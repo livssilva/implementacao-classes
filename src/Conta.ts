@@ -1,4 +1,4 @@
-class Conta {
+abstract class Conta {
     private titular: string;
     private saldo: number;
 

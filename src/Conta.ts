@@ -9,7 +9,7 @@ abstract class Conta {
 
     public depositar(valor: number): void {
         this.saldo += valor;
-        console.log(`Você depositou R$ ${valor.toFixed(2)}. Novo saldo: R$ ${this.recuperarSaldo().toFixed(2)}`);
+        console.log(`Foi depositado R$ ${valor.toFixed(2)}. Novo saldo: R$ ${this.recuperarSaldo().toFixed(2)}`);
     }
 
     public sacar(valor: number): void {

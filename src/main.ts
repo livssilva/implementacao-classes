@@ -13,7 +13,6 @@ contaCorrente.sacar(2000);
 console.log(`Seu saldo atual é: R$ ${contaCorrente.recuperarSaldo().toFixed(2)}`);
 
 console.log("Conta Poupanca:");
-
 contaPoupanca.depositar(75.12);
 contaPoupanca.renderJuros();
 contaPoupanca.sacar(100);
